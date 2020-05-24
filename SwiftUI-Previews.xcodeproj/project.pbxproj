@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		41374A74246EB6B600DAD8E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41374A73246EB6B600DAD8E2 /* Assets.xcassets */; };
 		41374A77246EB6B600DAD8E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41374A76246EB6B600DAD8E2 /* Preview Assets.xcassets */; };
 		41374A7A246EB6B600DAD8E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41374A78246EB6B600DAD8E2 /* LaunchScreen.storyboard */; };
+		41374A82246ED35800DAD8E2 /* Previews.json in Resources */ = {isa = PBXBuildFile; fileRef = 41374A81246ED35800DAD8E2 /* Previews.json */; };
+		414A4E4A247B2806009A5991 /* PrevUtilities in Frameworks */ = {isa = PBXBuildFile; productRef = 414A4E49247B2806009A5991 /* PrevUtilities */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		41374A76246EB6B600DAD8E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41374A79246EB6B600DAD8E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41374A7B246EB6B600DAD8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41374A81246ED35800DAD8E2 /* Previews.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Previews.json; sourceTree = "<group>"; };
+		414A4E47247B27D8009A5991 /* PrevUtilities */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PrevUtilities; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414A4E4A247B2806009A5991 /* PrevUtilities in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +45,10 @@
 		41374A61246EB6B500DAD8E2 = {
 			isa = PBXGroup;
 			children = (
+				414A4E47247B27D8009A5991 /* PrevUtilities */,
 				41374A6C246EB6B500DAD8E2 /* SwiftUI-Previews */,
 				41374A6B246EB6B500DAD8E2 /* Products */,
+				414A4E48247B2806009A5991 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +70,7 @@
 				41374A78246EB6B600DAD8E2 /* LaunchScreen.storyboard */,
 				41374A7B246EB6B600DAD8E2 /* Info.plist */,
 				41374A75246EB6B600DAD8E2 /* Preview Content */,
+				41374A81246ED35800DAD8E2 /* Previews.json */,
 			);
 			path = "SwiftUI-Previews";
 			sourceTree = "<group>";
@@ -73,6 +81,13 @@
 				41374A76246EB6B600DAD8E2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		414A4E48247B2806009A5991 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +106,9 @@
 			dependencies = (
 			);
 			name = "SwiftUI-Previews";
+			packageProductDependencies = (
+				414A4E49247B2806009A5991 /* PrevUtilities */,
+			);
 			productName = "SwiftUI-Previews";
 			productReference = 41374A6A246EB6B500DAD8E2 /* SwiftUI-Previews.app */;
 			productType = "com.apple.product-type.application";
@@ -135,6 +153,7 @@
 			files = (
 				41374A7A246EB6B600DAD8E2 /* LaunchScreen.storyboard in Resources */,
 				41374A77246EB6B600DAD8E2 /* Preview Assets.xcassets in Resources */,
+				41374A82246ED35800DAD8E2 /* Previews.json in Resources */,
 				41374A74246EB6B600DAD8E2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +359,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		414A4E49247B2806009A5991 /* PrevUtilities */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PrevUtilities;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 41374A62246EB6B500DAD8E2 /* Project object */;
 }
