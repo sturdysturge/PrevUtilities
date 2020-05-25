@@ -92,9 +92,3 @@ You can also pass an array of devices, eliminating the need to put your View ins
       AppleWatch_S5_40mm = PreviewDevice(rawValue: "Apple Watch Series 5 - 40mm"),
       AppleWatch_S5_44mm = PreviewDevice(rawValue: "Apple Watch Series 5 - 44mm")
     }
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NzgzODUxMSwyNjA0NzMwNTAsMjYwND
-czMDUwLDE4OTA5NjcyNzFdfQ==
--->
