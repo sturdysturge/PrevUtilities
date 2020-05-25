@@ -27,9 +27,5 @@ let package = Package(
             name: "PrevUtilities",
             dependencies: []
         ),
-        .testTarget(
-            name: "PrevUtilitiesTests",
-            dependencies: ["PrevUtilities"]
-        ),
     ]
 )
