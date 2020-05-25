@@ -1,6 +1,7 @@
 # PrevUtilities
 
-A description of this package.This package allows you to easily import the files from the Medium tutorial [How to Create Reusable SwiftUI Previews That Can Be Saved As JSON Files](https://medium.com/better-programming/how-to-create-reusable-swiftui-previews-that-can-be-saved-as-json-files-2ca7b42c9ac6). 
+This package allows you to easily import the files from the Medium tutorial [How to Create Reusable SwiftUI Previews That Can Be Saved As JSON Files](https://medium.com/better-programming/how-to-create-reusable-swiftui-previews-that-can-be-saved-as-json-files-2ca7b42c9ac6). 
+
 # Devices as Codable structs 
 This package allows saving and loading devices to a JSON file.
 
