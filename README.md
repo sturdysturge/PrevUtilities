@@ -8,8 +8,8 @@ Here's an example file that could be loaded into any project:
 
     {"previews":
 	    [
-		    {"colorScheme":"dark","device":"iPhone 11 Pro","displayName":"First"},
-			{"colorScheme":"light","displayName":"Second","width":700,"height":500}
+		{"colorScheme":"dark","device":"iPhone 11 Pro","displayName":"First"},
+		{"colorScheme":"light","displayName":"Second","width":700,"height":500}
 	    ]
     }
 
@@ -17,7 +17,7 @@ Here's an example file that could be loaded into any project:
 As seen below, the package provides convenient constants for all iOS 13 supported devices, so you don't need to pass a string to the constructor for PreviewDevice anymore.
 
 You can also pass an array of devices, eliminating the need to put your View inside a Group and repeat it several times with different devices.
-
+```swift
        import SwiftUI
     
     struct ContentView: View {
