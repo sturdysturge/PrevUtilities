@@ -4,6 +4,15 @@ A description of this package.This package allows you to easily import the files
 # Devices as Codable structs 
 This package allows saving and loading devices to a JSON file.
 
+Here's an example file that could be loaded into any project:
+
+    {"previews":
+	    [
+		    {"colorScheme":"dark","device":"iPhone 11 Pro","displayName":"First"},
+			{"colorScheme":"light","displayName":"Second","width":700,"height":500}
+	    ]
+    }
+
 # Constants for iOS 13 devices
 As seen below, the package provides convenient constants for all iOS 13 supported devices, so you don't need to pass a string to the constructor for PreviewDevice anymore.
 
@@ -85,5 +94,5 @@ You can also pass an array of devices, eliminating the need to put your View ins
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjIyMjk3MzgsMTg5MDk2NzI3MV19
+eyJoaXN0b3J5IjpbMjYwNDczMDUwLDE4OTA5NjcyNzFdfQ==
 -->
