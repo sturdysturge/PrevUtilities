@@ -80,7 +80,9 @@ You can also pass an array of devices, eliminating the need to put your View ins
       AppleWatch_S5_40mm = PreviewDevice(rawValue: "Apple Watch Series 5 - 40mm"),
       AppleWatch_S5_44mm = PreviewDevice(rawValue: "Apple Watch Series 5 - 44mm")
     }
-This package also allows saving and loading for 
+# Devices as Codable structs 
+This package also allows saving and loading devices to a JSON file.
+See the Medium tutorial or [this gist](https://gist.github.com/sturdysturge/b14aa1ed5e85d5ab45d56357293d77bd) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTMwOTc1NywxODkwOTY3MjcxXX0=
+eyJoaXN0b3J5IjpbLTgwNDcyMDM4MywxODkwOTY3MjcxXX0=
 -->
