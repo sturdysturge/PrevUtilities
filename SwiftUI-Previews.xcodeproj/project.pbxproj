@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		410514C1247C3D61000A8835 /* PrevUtilities in Frameworks */ = {isa = PBXBuildFile; productRef = 410514C0247C3D61000A8835 /* PrevUtilities */; };
 		41374A6E246EB6B500DAD8E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41374A6D246EB6B500DAD8E2 /* AppDelegate.swift */; };
 		41374A70246EB6B500DAD8E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41374A6F246EB6B500DAD8E2 /* SceneDelegate.swift */; };
 		41374A72246EB6B500DAD8E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41374A71246EB6B500DAD8E2 /* ContentView.swift */; };
 		41374A74246EB6B600DAD8E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41374A73246EB6B600DAD8E2 /* Assets.xcassets */; };
 		41374A77246EB6B600DAD8E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41374A76246EB6B600DAD8E2 /* Preview Assets.xcassets */; };
 		41374A7A246EB6B600DAD8E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41374A78246EB6B600DAD8E2 /* LaunchScreen.storyboard */; };
-		414A4E4A247B2806009A5991 /* PrevUtilities in Frameworks */ = {isa = PBXBuildFile; productRef = 414A4E49247B2806009A5991 /* PrevUtilities */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,6 @@
 		41374A76246EB6B600DAD8E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41374A79246EB6B600DAD8E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41374A7B246EB6B600DAD8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		414A4E47247B27D8009A5991 /* PrevUtilities */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PrevUtilities; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				414A4E4A247B2806009A5991 /* PrevUtilities in Frameworks */,
+				410514C1247C3D61000A8835 /* PrevUtilities in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +42,6 @@
 		41374A61246EB6B500DAD8E2 = {
 			isa = PBXGroup;
 			children = (
-				414A4E47247B27D8009A5991 /* PrevUtilities */,
 				41374A6C246EB6B500DAD8E2 /* SwiftUI-Previews */,
 				41374A6B246EB6B500DAD8E2 /* Products */,
 				414A4E48247B2806009A5991 /* Frameworks */,
@@ -104,7 +102,7 @@
 			);
 			name = "SwiftUI-Previews";
 			packageProductDependencies = (
-				414A4E49247B2806009A5991 /* PrevUtilities */,
+				410514C0247C3D61000A8835 /* PrevUtilities */,
 			);
 			productName = "SwiftUI-Previews";
 			productReference = 41374A6A246EB6B500DAD8E2 /* SwiftUI-Previews.app */;
@@ -134,6 +132,9 @@
 				Base,
 			);
 			mainGroup = 41374A61246EB6B500DAD8E2;
+			packageReferences = (
+				410514BF247C3D61000A8835 /* XCRemoteSwiftPackageReference "SwiftUI-Previews" */,
+			);
 			productRefGroup = 41374A6B246EB6B500DAD8E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -356,9 +357,21 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		410514BF247C3D61000A8835 /* XCRemoteSwiftPackageReference "SwiftUI-Previews" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sturdysturge/SwiftUI-Previews.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		414A4E49247B2806009A5991 /* PrevUtilities */ = {
+		410514C0247C3D61000A8835 /* PrevUtilities */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 410514BF247C3D61000A8835 /* XCRemoteSwiftPackageReference "SwiftUI-Previews" */;
 			productName = PrevUtilities;
 		};
 /* End XCSwiftPackageProductDependency section */
