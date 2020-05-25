@@ -10,9 +10,8 @@ Here's an example file that could be loaded into any project:
 	    [
 		    {"colorScheme":"dark","device":"iPhone 11 Pro","displayName":"First"},
 			{"colorScheme":"light","displayName":"Second","width":700,"height":500}
-   
-		   ]
-        }
+	    ]
+    }
 
 # Constants for iOS 13 devices
 As seen below, the package provides convenient constants for all iOS 13 supported devices, so you don't need to pass a string to the constructor for PreviewDevice anymore.
@@ -95,6 +94,6 @@ You can also pass an array of devices, eliminating the need to put your View ins
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDgwODA1ODgsMjYwNDczMDUwLDE4OT
-A5NjcyNzFdfQ==
+eyJoaXN0b3J5IjpbMjYwNDczMDUwLDI2MDQ3MzA1MCwxODkwOT
+Y3MjcxXX0=
 -->
