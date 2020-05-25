@@ -1,6 +1,8 @@
 # PrevUtilities
 
 A description of this package.This package allows you to easily import the files from the Medium tutorial [How to Create Reusable SwiftUI Previews That Can Be Saved As JSON Files](https://medium.com/better-programming/how-to-create-reusable-swiftui-previews-that-can-be-saved-as-json-files-2ca7b42c9ac6). 
+# Devices as Codable structs 
+This package allows saving and loading devices to a JSON file.
 
 # Constants for iOS 13 devices
 As seen below, the package provides convenient constants for all iOS 13 supported devices, so you don't need to pass a string to the constructor for PreviewDevice anymore.
@@ -80,9 +82,8 @@ You can also pass an array of devices, eliminating the need to put your View ins
       AppleWatch_S5_40mm = PreviewDevice(rawValue: "Apple Watch Series 5 - 40mm"),
       AppleWatch_S5_44mm = PreviewDevice(rawValue: "Apple Watch Series 5 - 44mm")
     }
-# Devices as Codable structs 
-This package also allows saving and loading devices to a JSON file.
-See the Medium tutorial or [this gist](https://gist.github.com/sturdysturge/b14aa1ed5e85d5ab45d56357293d77bd) 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNDcyMDM4MywxODkwOTY3MjcxXX0=
+eyJoaXN0b3J5IjpbLTIwMjIyMjk3MzgsMTg5MDk2NzI3MV19
 -->
