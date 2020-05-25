@@ -10,7 +10,7 @@ Here's an example file that could be loaded into any project:
 {"previews":
 	[
 		{"colorScheme":"dark","device":"iPhone 11 Pro","displayName":"First"},
-{"colorScheme":"light","displayName":"Second","width":700,"height":500}
+		{"colorScheme":"light","displayName":"Second","width":700,"height":500}
 	]
 }
 ```
@@ -36,7 +36,7 @@ struct ContentView_Previews: PreviewProvider {
   
   static var previews: some View {
     ContentView()
-      .preview(previewData)
+      .preview(previewDataFromFile)
   }
 }
 ```
