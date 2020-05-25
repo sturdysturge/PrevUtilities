@@ -4,7 +4,8 @@ A description of this package.This package allows you to easily import the files
 
 # Constants for iOS 13 devices
 As seen below, the package provides convenient constants for all iOS 13 supported devices, so you don't need to pass a string to the constructor for PreviewDevice anymore.
-You can also 
+
+You can also pass an array of devices, eliminating the need to put your View inside a Group and repeat it several times with different devices.
 
        import SwiftUI
     
@@ -79,7 +80,7 @@ You can also
       AppleWatch_S5_40mm = PreviewDevice(rawValue: "Apple Watch Series 5 - 40mm"),
       AppleWatch_S5_44mm = PreviewDevice(rawValue: "Apple Watch Series 5 - 44mm")
     }
-
+This package also allows saving and loading for 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MzY0OTY0MiwxODkwOTY3MjcxXX0=
+eyJoaXN0b3J5IjpbLTEzOTMwOTc1NywxODkwOTY3MjcxXX0=
 -->
